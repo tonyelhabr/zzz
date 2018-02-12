@@ -1,0 +1,1 @@
+Sys.setenv(PATH = paste("C:/Program Files/ImageMagick", Sys.getenv("PATH"), sep = ";"))

@@ -1,0 +1,32 @@
+
+# Set url.
+git remote set-url origin https://github.com/tonyelhabr/[repo]
+
+# Replace url.
+git remote -v
+git remote set-url origin https://github.com/tonyelhabr/[repo].git
+
+# Remove files in GitHub repo but keep them in local repo.
+git rm --cached `git ls-files -i -X .gitignore`
+
+# Viewing config stuff.
+git config --list [--global/local/system]
+
+
+# Viewing changes after a pull.
+# reference: https://stackoverflow.com/questions/1362952/detail-change-after-git-pull
+# See all of the changes.
+git diff master@{1} master
+
+# See the changes to a given file,
+git diff master@{1} master <file>
+
+# See all the changes within a given directory,
+git diff master@{1} master <file>
+
+# See the summary of changes again,
+git diff --stat master@{1} master
+
+# Also...
+git whatchanged
+git remote show origin

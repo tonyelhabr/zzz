@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+**.html
+**Thumbs.db
+**.png
+**.csv
+op_log.*

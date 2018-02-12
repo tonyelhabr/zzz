@@ -1,0 +1,1 @@
+httr::set_config(httr::config(ssl_verifypeer = 0L))

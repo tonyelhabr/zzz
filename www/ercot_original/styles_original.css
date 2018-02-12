@@ -1,0 +1,450 @@
+<!--
+/// Source for a lot of the CSS is from W3Schools.com ///
+-->	
+
+p {
+	font-family: "Trade Gothic Pro Light","Arial";
+	font-size: 14px;
+}
+body, html {
+	font-family: "Trade Gothic Pro Light","Arial";
+	font-size: 14px;
+	line-height:1.25;	
+	margin-left: 0;
+	margin-right: 0;
+}
+h1 {
+	font-family: "Trade Gothic Pro Light","Arial";
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+}
+h2 {
+	font-family: "Trade Gothic Pro Light","Arial";
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #26d07c;
+}
+h3 {
+	font-family: "Trade Gothic Pro Light","Arial";
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	/*color: #685bc7;*/
+	color: #003865;
+}
+h4 {
+	font-family: 'Trade Gothic Pro Light','Arial';
+	font-size: 12px;
+	font-weight: bold;
+	margin-top:5px;
+	margin-left:5px;
+	margin-bottom:5px;
+}
+h5 {
+	font-family: "Trade Gothic Pro Light","Arial";
+	font-size: 16px;
+	background-color: #f1f1f1;
+	border: 1px solid #5b6770;
+	border-radius: 15px;
+	width:900px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+	text-align: center;
+	padding: 4px;
+}
+
+.toggleHeader {
+	background-image: url('./images/collapse-128.png');
+	background-repeat: no-repeat;
+	background-size: 14px 14px;
+	background-position: 99% 50%;
+}
+td {
+	vertical-align: top;
+	padding-top: 3px;
+}
+a:link {
+		font-family: "Trade Gothic Pro Light","Arial";
+    color: #00aec7;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:visited {
+		font-family: "Trade Gothic Pro Light","Arial";
+    color: #00aec7;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+		font-family: "Trade Gothic Pro Light","Arial";
+    color: #003865;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:active {
+		font-family: "Trade Gothic Pro Light","Arial";
+    color: #003865;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer {
+   position:absolute;
+   bottom:0px;
+   left:0px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   width:100%;
+   text-align:center;
+   background:#5b6770;
+   z-index:3;
+   color:white;
+}
+.footer a {
+   color:white;
+   font-weight: normal;
+}
+.footer:hover, .footer:focus {
+   background:#333333;
+}
+.select_elements {
+	font-family: 'Trade Gothic Pro Light','Arial';
+	font-size: 14px;
+	color: #00aec7;
+	width: 380px;
+	overflow: hidden;
+}
+
+.menu_label {
+	font-family: 'Trade Gothic Pro Light','Arial';
+	font-size: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	background:#5b6770;
+	text-align: center;
+	position:relative;
+	width:100%;
+	line-height:40px;
+}
+.menu_label:hover, .menu_label:focus {
+	background:#333333;
+	cursor: pointer;
+}
+
+.datepicker_label {
+	font-family: 'Trade Gothic Pro Light','Arial';
+	font-size: 18px;
+	color: #000000;
+	text-decoration: none;
+	background:none;
+	text-align: center;
+	position:relative;
+	width:100%;
+	margin-bottom: 8px;
+	vertical-align:middle;
+}
+
+.custompicker {
+	width: 100px;
+	text-align:center;
+	font-family: 'Trade Gothic Pro Light','Arial';
+	background-color:none;
+	color: #00aec7;
+	border: none;
+	font-size: 18px;
+	height: 28px;
+	vertical-align:middle;
+	cursor: pointer;
+	/*text-shadow: 0 0 0 #00aec7;*/
+}
+.custompicker:focus {
+	border: none;
+	outline: 1px dashed #00aec7;
+}
+
+.menu {
+	position: relative;
+	width:100%;
+	display: inline-block;	
+}
+
+.generate_results {
+	font-family: 'Trade Gothic Pro Light','Arial';
+	font-size: 14px;
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #00aec7;
+  border: 1px solid #00aec7;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  width: 150px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.generate_results:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+select[multiple] {
+	font-family: 'Trade Gothic Pro Light','Arial';
+	font-size: 14px;
+}
+
+select[multiple]:focus {
+	outline: none;
+}
+
+.datepicker {
+	width: 100px;
+	text-align:center;
+}
+
+img { border: none }
+
+.summary_content {display: none; position: relative; background-color: #cbd7e0; line-height:20px;text-align:center;color:black;font-style:italic;font-weight: bold;}
+.summary_content a {color: #00aec7; text-decoration: none; background-color: #f9f9f9;  display: block; text-align: center;}
+.summary_content {background-color: #f1f1f1; color: #003865;}
+
+.dam_content {display: none; position: relative; background-color: #cbd7e0; line-height:20px;text-align:center;color:black;font-style:italic;font-weight: bold;}
+.dam_content a {color: #00aec7; text-decoration: none; background-color: #f9f9f9;  display: block; text-align: center;}
+.dam_content a:hover {background-color: #f1f1f1; color: #003865;}
+
+.rt_content {display: none; position: relative; background-color: #cbd7e0; line-height:20px;text-align:center;color:black;font-style:italic;font-weight: bold;}
+.rt_content a {color: #00aec7; text-decoration: none; background-color: #f9f9f9;  display: block; text-align: center;}
+.rt_content a:hover {background-color: #f1f1f1; color: #003865;}
+
+.ruc_content {display: none; position: relative; background-color: #cbd7e0; line-height:20px;text-align:center;color:black;font-style:italic;font-weight: bold;}
+.ruc_content a {color: #00aec7; text-decoration: none; background-color: #f9f9f9;  display: block; text-align: center;}
+.ruc_content a:hover {background-color: #f1f1f1; color: #003865;}
+
+.set_content {display: none; position: relative; background-color: #cbd7e0; line-height:20px;text-align:center;color:black;font-style:italic;font-weight: bold;}
+.set_content a {color: #00aec7; text-decoration: none; background-color: #f9f9f9;  display: block; text-align: center;}
+.set_content a:hover {background-color: #f1f1f1; color: #003865;}
+
+.ice_content {display: none; position: relative; background-color: #cbd7e0; line-height:20px;text-align:center;color:black;font-style:italic;font-weight: bold;}
+.ice_content a { color: #00aec7; text-decoration: none; background-color: #f9f9f9;  display: block; text-align: center;}
+.ice_content a:hover {background-color: #f1f1f1; color: #003865;}
+
+.f_content {display: none; position: relative; background-color: #cbd7e0; line-height:20px;text-align:center;color:black;font-style:italic;border-bottom: 1px solid #5b6770;font-weight: bold;}
+.f_content a { color: #00aec7; text-decoration: none; background-color: #f9f9f9;  display: block; text-align: center;}
+.f_content a:hover {background-color: #f1f1f1; color: #003865;}
+
+.trend_form {border: 1px solid black;width:800px;padding: 10px;}
+
+.trend_content {display: none; position: relative; background-color: #ffd100; line-height:20px;text-align:center;color:black;font-style:italic;font-weight: bold;}
+.trend_content a {color: #00aec7; text-decoration: none; background-color: #f9f9f9;  display: block; text-align: center;}
+.trend_content a:hover {background-color: #f1f1f1; color: #003865;}
+
+.opsmon_content {display: none; position: relative; background-color: #ffd100; line-height:20px;text-align:center;color:black;font-style:italic;font-weight: bold;}
+.opsmon_content a {color: #00aec7; text-decoration: none; background-color: #f9f9f9;  display: block; text-align: center;}
+.opsmon_content a:hover {background-color: #f1f1f1; color: #003865;}
+
+.show {display:block;}
+
+/* LMP Contour Map */
+.covertop{position:relative;float:right;background-color:#fff;width:70px;height:35px;margin-bottom:-60px;margin-right:35px;z-index:1}
+.coverbottom{position:relative;float:left;background-color:#fff;width:90px;height:40px;margin-top:-50px;margin-left:25px;z-index:1}
+#rtmLmp {width:200px;text-align:center}
+
+
+
+
+
+<!--
+/// Drop-down list for Trend Analytics ///
+/// Source is http://www.scribbletribe.com/how-to-style-the-select-dropdown/ ///
+-->	
+.label {
+	font-family: 'Trade Gothic Pro Light','Arial';
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.dropcontainer {
+	position:relative;
+	font-family: 'Trade Gothic Pro Light','Arial';
+	font-size: 14px;
+	color: #777;
+	} 
+
+.trigger {
+	color: #777;
+	padding: 3px;
+	font-family: 'Trade Gothic Pro Light','Arial';
+	font-size: 14px;
+	width: 350px;
+	background: #fff url(./images/select-arrow-open.png) 98% center no-repeat;
+	display: block;
+	border: 1px solid #ccc;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+	}
+
+.trigger:hover {
+	color: #777;
+	background: #f5f5f5 url(./images/select-arrow-open.png) 98% center no-repeat;
+	}
+
+.activetrigger {
+	color: #777;
+	padding: 3px;
+	font-family: 'Trade Gothic Pro Light','Arial';
+	font-size: 14px;
+	width: 350px;
+	background: #f5f5f5 url(./images/select-arrow-close.png) 98% center no-repeat;
+	display: block;
+	border: 1px solid #ccc;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+.activetrigger:hover {
+	background: #f5f5f5 url(./images/select-arrow-close.png) 98% center no-repeat;
+	color: #777;
+	}
+
+.activetrigger:active {
+	background: #f5f5f5 url(./images/select-arrow-close.png) 98% center no-repeat;
+	color: #777;
+	}
+
+.dropcontainer ul {
+	font-family: 'Trade Gothic Pro Light','Arial';
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-top: none;
+	background: #fff;
+	list-style-type: none;
+	padding: 3px;
+	margin: 0;
+	width: 350px;
+	z-index: 100;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+.dropcontainer ul li {
+	padding: 3px;
+	-webkit-transition: all 0.5s ease; 
+	-moz-transition: all 0.5s ease; 
+	-o-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+	}
+
+.dropcontainer ul li:hover {
+	background: #f5f5f5;
+	outline: none;
+	}
+
+.dropcontainer ul li:first-child {
+	display: none;
+	}
+
+.dropcontainer ul li:last-child {
+	border-bottom: none;
+	}
+
+.dropdownhidden {
+	display: none;
+	}
+
+.dropdownvisible {
+	height: auto;
+	}
+
+.dropdownvisible {
+	height: 95px;
+	overflow-y: scroll;
+	}
+	
+#mun {display:none;}
+#coo {display:none;}
+#gen {display:none;}
+#rep {display:none;}
+#pow {display:none;}
+#oth {display:none;}
+
+#res {display:none;}
+#rtm {display:none;}
+#dam {display:none;}
+#crr {display:none;}
+
+#specific{display:none;}
+
+/* Stuff for Trend Analysis Tables */
+
+
+.l {text-align: left;
+		font-family: "Trade Gothic Pro Light","Arial";
+		font-size: 13px;		
+}
+.c {text-align: center;
+		font-family: "Trade Gothic Pro Light","Arial";
+		font-size: 13px;	
+}
+.r {text-align: right;
+		font-family: "Trade Gothic Pro Light","Arial";
+		font-size: 13px;	
+}
+.header {text-align: center;
+		color:#685bc7;
+		background-color:#DDDDDD;
+		font-family: "Trade Gothic Pro Light","Arial";
+		font-size: 14px;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
