@@ -14,5 +14,7 @@ cat
 # id = ELEC.GEN.[type]-[state]-[cat_id].[frequency]
 wind <-
   getEIA("ELEC.GEN.WND-TX-99.A", key = key)
+wind
 solar_rooftop <-
   getEIA("ELEC.GEN.DPV-TX-99.A", key = key)
+solar_rooftop
