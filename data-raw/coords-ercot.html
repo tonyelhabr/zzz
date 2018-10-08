@@ -1,0 +1,426 @@
+
+<!DOCTYPE html>
+<meta http-equiv="x-ua-compatible" content="IE=8" >
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta http-equiv ="Pragma" CONTENT="no-cache">
+    <script>
+      setTimeout("window.location.reload(true);",300000);
+    </script>
+<script>
+function open_window(url) {
+  window.open(url,"help",'toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=yes,resizable=0,width=750,height=825');
+};
+</script>
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-460876-10', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+    <script type="text/javascript">
+
+      function dataTypeUri(f) {
+        var uri= f.dataType.options[f.dataType.selectedIndex].value + ".html"
+        window.open(uri,'_self');
+      }
+
+      function gradientUri(f) {
+        var uri= f.gradient.options[f.gradient.selectedIndex].value + ".html"
+        window.open(uri,'_self');
+      }
+
+      function damSppUri(f) {
+        var uri= f.damSpp.options[f.damSpp.selectedIndex].value + ".html"
+        window.open(uri,'_self');
+      }
+
+    </script>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .hdr_port {
+      font-weight: bold;
+      font-size: 12px;
+      background-color: #c2c8cd;
+      padding: 5px 0px 5px 10px;
+      border-top: 4px solid #00aec7;
+      text-align: left;
+      width:510px;
+      color:#444d54
+    }
+    .hdr_portB {
+      font-weight: bold;
+      font-size: 12px;
+      background-color: #c2c8cd;
+      padding: 5px 15px 5px 10px;
+      border-top: 4px solid #00aec7;
+      text-align: right;
+      width:200px;
+      color: #444d54;
+    }
+    .portlet-wrap {
+      align: center;
+      padding: 0px 10px 10px 10px;
+    }
+    .datestamp {
+      align: left;
+      padding: 0px 10px 5px 10px;
+    }
+    .portlet-light {
+      width: 712px;
+      background-color: #FFFFFF;
+      padding: 0px;
+      border: 1px solid #97a2aa;
+      margin: 0px;
+    }
+    .dashboard {
+      font-size: 11px;
+      font-weight: bold;
+      padding-top: 6px;
+    }
+    .dateLabelClass{
+      font-size:90%;
+      padding: 5px 20px 5px 0px;
+    }
+    .dateLabelInactiveClass{
+      font-size:90%;
+      color: #666666;
+      padding: 5px 20px 5px 0px;
+    }
+    .dateLabelClassB{
+      padding: 0px 0px 20px 0px;
+      font-size:80%
+    }
+    a, a:visited{
+      text-decoration:none;
+      color: #0079db;
+    }
+  </style>
+  <title>LMP Contour Map: Real-Time Market - Settlement Point Pricing</title>
+  </head>
+  <body bgcolor="#FFFFFF">
+
+    <map name="CONTOUR_IMAGE_MAP">
+      <area shape="circle" coords="331,134,6" title="BLSMT1_5_A_6:   $20.12" alt=""/>
+      <area shape="circle" coords="427,421,6" title="RAYB_G78910:   $25.57" alt=""/>
+      <area shape="circle" coords="253,208,6" title="FLUVANNA_1_2:   $20.17" alt=""/>
+      <area shape="circle" coords="242,272,6" title="RSK_RN:   $20.10" alt=""/>
+      <area shape="circle" coords="372,322,6" title="BUCHAN_ALL:   $19.95" alt=""/>
+      <area shape="circle" coords="244,250,6" title="OWF_OWF:   $20.22" alt=""/>
+      <area shape="circle" coords="272,227,6" title="PYR_PYRON1:   $20.17" alt=""/>
+      <area shape="circle" coords="515,372,6" title="PSA_PUN1:   $20.08" alt=""/>
+      <area shape="circle" coords="471,193,6" title="STEAM_ENG123:   $20.09" alt=""/>
+      <area shape="circle" coords="401,238,6" title="WHCCS_CT1_ST:   $20.09" alt=""/>
+      <area shape="circle" coords="374,174,6" title="SHANNONW_RN:   $20.11" alt=""/>
+      <area shape="circle" coords="242,245,6" title="GUNMTN_NODE:   $20.35" alt=""/>
+      <area shape="circle" coords="390,374,6" title="HAYSEN1_2:   $19.91" alt=""/>
+      <area shape="circle" coords="201,319,6" title="KEO_KEO_SM1:   $16.80" alt=""/>
+      <area shape="circle" coords="244,82,6" title="GRANDVW1_A_B:   $20.13" alt=""/>
+      <area shape="circle" coords="420,306,6" title="PANDA_T2_CT1:   $20.02" alt=""/>
+      <area shape="circle" coords="371,401,6" title="RN_OCI_ALAMO:   $19.98" alt=""/>
+      <area shape="circle" coords="415,479,6" title="NUE_NUECESG7:   $17.52" alt=""/>
+      <area shape="circle" coords="411,350,6" title="WEBBER_WS_T1:   $19.96" alt=""/>
+      <area shape="circle" coords="234,205,6" title="SRWE1_UNIT1:   $20.20" alt=""/>
+      <area shape="circle" coords="520,390,6" title="BAC_RN_ALL:   $20.08" alt=""/>
+      <area shape="circle" coords="399,240,6" title="CPSES_UNIT1:   $20.09" alt=""/>
+      <area shape="circle" coords="258,392,6" title="AMISTAD_ALL:   $20.82" alt=""/>
+      <area shape="circle" coords="410,516,6" title="TGW_T1_T2:   $0.01" alt=""/>
+      <area shape="circle" coords="158,312,6" title="HOVEY_GEN:   $-3.64" alt=""/>
+      <area shape="circle" coords="234,207,6" title="BULLCRK_1_2:   $20.23" alt=""/>
+      <area shape="circle" coords="531,290,6" title="LFBIO_UNIT1:   $20.08" alt=""/>
+      <area shape="circle" coords="245,303,6" title="HICK_G1_G2:   $19.29" alt=""/>
+      <area shape="circle" coords="515,369,6" title="CHAMON_UN1:   $20.08" alt=""/>
+      <area shape="circle" coords="473,329,6" title="GIB_GIB_CRG1:   $20.07" alt=""/>
+      <area shape="circle" coords="522,396,6" title="UCC_COG_PUN1:   $20.08" alt=""/>
+      <area shape="circle" coords="410,490,6" title="SANTACRU_ALL:   $-30.93" alt=""/>
+      <area shape="circle" coords="435,284,6" title="SCES_UNIT1:   $20.05" alt=""/>
+      <area shape="circle" coords="492,390,6" title="WAP_WAPGT_1:   $20.09" alt=""/>
+      <area shape="circle" coords="267,216,6" title="CSC_CSECG1_2:   $20.19" alt=""/>
+      <area shape="circle" coords="219,216,6" title="LAMESASLR_G:   $20.46" alt=""/>
+      <area shape="circle" coords="363,195,6" title="GRSES_UNIT1:   $20.11" alt=""/>
+      <area shape="circle" coords="273,375,6" title="FERMI_ALL:   $20.54" alt=""/>
+      <area shape="circle" coords="524,375,6" title="BTE_PUN1:   $20.08" alt=""/>
+      <area shape="circle" coords="480,331,6" title="FTR_FTR_G1_4:   $20.07" alt=""/>
+      <area shape="circle" coords="516,377,6" title="DIB_PUN1:   $20.08" alt=""/>
+      <area shape="circle" coords="261,210,6" title="DERMOTT_ALL:   $20.16" alt=""/>
+      <area shape="circle" coords="323,187,6" title="HORSECRK_RN:   $20.13" alt=""/>
+      <area shape="circle" coords="423,475,6" title="INGLCO_PUN1:   $17.65" alt=""/>
+      <area shape="circle" coords="351,363,6" title="HHGT_KENDAL:   $19.82" alt=""/>
+      <area shape="circle" coords="403,550,6" title="REDFISH_ALL:   $17.61" alt=""/>
+      <area shape="circle" coords="342,144,6" title="ELECTRAW_1_2:   $20.12" alt=""/>
+      <area shape="circle" coords="277,304,6" title="LGD_LANGFORD:   $20.00" alt=""/>
+      <area shape="circle" coords="517,382,6" title="CTL_GT_102:   $20.08" alt=""/>
+      <area shape="circle" coords="413,565,6" title="CAMWIND_RN:   $17.62" alt=""/>
+      <area shape="circle" coords="304,240,6" title="CALLAHA_WND1:   $20.11" alt=""/>
+      <area shape="circle" coords="474,427,6" title="STP_STP_G1:   $20.08" alt=""/>
+      <area shape="circle" coords="204,315,6" title="SIRIUS_UNIT1:   $16.80" alt=""/>
+      <area shape="circle" coords="373,550,6" title="MIRASOLE_GEN:   $18.15" alt=""/>
+      <area shape="circle" coords="455,299,6" title="OGSES_1:   $20.06" alt=""/>
+      <area shape="circle" coords="382,552,6" title="REDGATE_ALL:   $15.75" alt=""/>
+      <area shape="circle" coords="383,383,6" title="GUADG_CCU1:   $19.75" alt=""/>
+      <area shape="circle" coords="365,286,6" title="GWEC_G1:   $20.01" alt=""/>
+      <area shape="circle" coords="446,304,6" title="TNP_TNP_O_1:   $20.05" alt=""/>
+      <area shape="circle" coords="375,333,6" title="WIR_WIRTZ_G1:   $19.94" alt=""/>
+      <area shape="circle" coords="452,159,6" title="DENISON_G1_2:   $20.09" alt=""/>
+      <area shape="circle" coords="292,244,6" title="TTWEC_G1:   $20.09" alt=""/>
+      <area shape="circle" coords="296,404,6" title="ANACACHO_ANA:   $21.74" alt=""/>
+      <area shape="circle" coords="239,247,6" title="RN_TOSBATT:   $20.21" alt=""/>
+      <area shape="circle" coords="182,253,6" title="NWF_NWF1:   $22.03" alt=""/>
+      <area shape="circle" coords="416,164,6" title="TYLRWIND_RN:   $20.09" alt=""/>
+      <area shape="circle" coords="203,264,6" title="QALSW_ALL:   $20.35" alt=""/>
+      <area shape="circle" coords="453,432,6" title="FORMOSA_PUN1:   $17.27" alt=""/>
+      <area shape="circle" coords="340,546,6" title="FAL_FALCONG1:   $18.08" alt=""/>
+      <area shape="circle" coords="264,238,6" title="MGSES_CT123:   $20.21" alt=""/>
+      <area shape="circle" coords="288,238,6" title="SWEETWN2_2_4:   $20.17" alt=""/>
+      <area shape="circle" coords="503,417,6" title="DOWGEN_PUN1:   $20.09" alt=""/>
+      <area shape="circle" coords="318,185,6" title="SALVTION_GEN:   $20.13" alt=""/>
+      <area shape="circle" coords="415,472,6" title="COTTON_PAP2:   $17.60" alt=""/>
+      <area shape="circle" coords="339,145,6" title="OKLA_OKLA_G1:   $20.12" alt=""/>
+      <area shape="circle" coords="474,265,6" title="BBSES_UNIT1:   $20.07" alt=""/>
+      <area shape="circle" coords="443,442,6" title="NCARBID_PUN1:   $17.71" alt=""/>
+      <area shape="circle" coords="244,129,6" title="BRISCOE_WIND:   $20.13" alt=""/>
+      <area shape="circle" coords="399,347,6" title="AUSTPL_ALL:   $19.95" alt=""/>
+      <area shape="circle" coords="456,324,6" title="DANSBY_ALL:   $20.06" alt=""/>
+      <area shape="circle" coords="515,371,6" title="LHM_PUN1:   $20.08" alt=""/>
+      <area shape="circle" coords="431,233,6" title="MDANP_CT1_2:   $20.08" alt=""/>
+      <area shape="circle" coords="364,156,6" title="WFCOGEN_13:   $20.11" alt=""/>
+      <area shape="circle" coords="253,74,6" title="PH2_U1_U2:   $20.13" alt=""/>
+      <area shape="circle" coords="360,264,6" title="LGW_UNIT_ALL:   $20.06" alt=""/>
+      <area shape="circle" coords="407,561,6" title="LV1A_LV1B:   $17.62" alt=""/>
+      <area shape="circle" coords="237,84,6" title="ROUTE66_RN:   $20.13" alt=""/>
+      <area shape="circle" coords="523,396,6" title="AMOCO_PUN1:   $20.08" alt=""/>
+      <area shape="circle" coords="417,569,6" title="RN_SR_WIND1:   $17.61" alt=""/>
+      <area shape="circle" coords="374,192,6" title="SENATEWD_1:   $20.11" alt=""/>
+      <area shape="circle" coords="518,383,6" title="BYU_PUN1:   $20.08" alt=""/>
+      <area shape="circle" coords="382,557,6" title="DUKE_GST1CCU:   $17.26" alt=""/>
+      <area shape="circle" coords="244,145,6" title="SPLAIN2_RN:   $20.13" alt=""/>
+      <area shape="circle" coords="463,172,6" title="VLSES_UNIT3:   $20.09" alt=""/>
+      <area shape="circle" coords="509,379,6" title="PR_PR_G2:   $20.08" alt=""/>
+      <area shape="circle" coords="204,307,6" title="BOOTLEG_UN1:   $18.80" alt=""/>
+      <area shape="circle" coords="261,162,6" title="MWEC_G1:   $20.17" alt=""/>
+      <area shape="circle" coords="382,558,6" title="NED_NEDIN_G1:   $17.25" alt=""/>
+      <area shape="circle" coords="316,404,6" title="HELIOS_RN:   $21.73" alt=""/>
+      <area shape="circle" coords="408,479,6" title="OXY_PUN1:   $17.51" alt=""/>
+      <area shape="circle" coords="514,378,6" title="SL_PUN1:   $20.08" alt=""/>
+      <area shape="circle" coords="204,108,6" title="HRFDWIND_ALL:   $20.13" alt=""/>
+      <area shape="circle" coords="452,387,6" title="SKY1:   $20.20" alt=""/>
+      <area shape="circle" coords="275,232,6" title="TKWSW_CHAMP:   $20.17" alt=""/>
+      <area shape="circle" coords="263,260,6" title="CAPRIDG4_CR4:   $20.07" alt=""/>
+      <area shape="circle" coords="520,259,6" title="SC2SES_UNIT1:   $20.08" alt=""/>
+      <area shape="circle" coords="407,346,6" title="DECKER_GT:   $19.96" alt=""/>
+      <area shape="circle" coords="215,313,6" title="INDN_INDNNWP:   $16.80" alt=""/>
+      <area shape="circle" coords="244,243,6" title="SGM_SIGNALMT:   $20.22" alt=""/>
+      <area shape="circle" coords="370,238,6" title="FLTCK_SSI:   $20.09" alt=""/>
+      <area shape="circle" coords="421,355,6" title="LOS_LOSTPGT1:   $19.97" alt=""/>
+      <area shape="circle" coords="430,332,6" title="SDSES_PUN1:   $20.00" alt=""/>
+      <area shape="circle" coords="373,402,6" title="BRAUNIG_VHB1:   $19.80" alt=""/>
+      <area shape="circle" coords="403,234,6" title="DC2SES_ALL:   $20.08" alt=""/>
+      <area shape="circle" coords="538,242,6" title="MLSES_UNIT1:   $20.08" alt=""/>
+      <area shape="circle" coords="524,265,6" title="NACPW_UNIT1:   $20.08" alt=""/>
+      <area shape="circle" coords="363,272,6" title="FTWIND_UNIT1:   $20.07" alt=""/>
+      <area shape="circle" coords="250,207,6" title="RDCAN_RDCNY1:   $20.19" alt=""/>
+      <area shape="circle" coords="465,287,6" title="LEG_LEG_G1:   $20.06" alt=""/>
+      <area shape="circle" coords="212,305,6" title="SW_M_SW_MESA:   $17.93" alt=""/>
+      <area shape="circle" coords="254,152,6" title="WEC_WECG1:   $20.15" alt=""/>
+      <area shape="circle" coords="242,241,6" title="FLCNS_UNIT1:   $20.37" alt=""/>
+      <area shape="circle" coords="519,375,6" title="EXN_PUN1:   $20.08" alt=""/>
+      <area shape="circle" coords="373,323,6" title="INKS_INKS_G1:   $19.95" alt=""/>
+      <area shape="circle" coords="411,580,6" title="SIL_SILAS_10:   $17.62" alt=""/>
+      <area shape="circle" coords="346,495,6" title="EXGNWTL_1:   $-13.31" alt=""/>
+      <area shape="circle" coords="518,380,6" title="MIRAGE_G1:   $20.08" alt=""/>
+      <area shape="circle" coords="357,181,6" title="TRINITY_ALL:   $20.11" alt=""/>
+      <area shape="circle" coords="409,355,6" title="BASTEN_CCU:   $19.94" alt=""/>
+      <area shape="circle" coords="418,263,6" title="BOSQ_BSQS_34:   $20.06" alt=""/>
+      <area shape="circle" coords="394,199,6" title="WCPP_CT1:   $20.10" alt=""/>
+      <area shape="circle" coords="510,372,6" title="GBY_GBY_5:   $20.08" alt=""/>
+      <area shape="circle" coords="204,297,6" title="SPTX12B_RN:   $17.97" alt=""/>
+      <area shape="circle" coords="394,342,6" title="MAR_MARSFOG1:   $19.95" alt=""/>
+      <area shape="circle" coords="187,254,6" title="RN_ECEC_HOLT:   $21.19" alt=""/>
+      <area shape="circle" coords="453,433,6" title="CALHOUN_ALL:   $17.28" alt=""/>
+      <area shape="circle" coords="404,331,6" title="RHESS_1:   $19.97" alt=""/>
+      <area shape="circle" coords="460,328,6" title="ATK_ATKINSG7:   $20.06" alt=""/>
+      <area shape="circle" coords="367,174,6" title="WNDTS2_UNIT1:   $20.11" alt=""/>
+      <area shape="circle" coords="523,376,6" title="CBY4_ALL:   $20.08" alt=""/>
+      <area shape="circle" coords="203,295,6" title="CASL_GAP_UN1:   $17.97" alt=""/>
+      <area shape="circle" coords="416,235,6" title="TEN_CT1_STG:   $20.08" alt=""/>
+      <area shape="circle" coords="417,263,6" title="WND_WHITNEY:   $20.06" alt=""/>
+      <area shape="circle" coords="230,220,6" title="MESQCRK_ALL:   $20.20" alt=""/>
+      <area shape="circle" coords="512,377,6" title="CAL_PUN1:   $20.08" alt=""/>
+      <area shape="circle" coords="252,150,6" title="COTPLNS_RN:   $20.13" alt=""/>
+      <area shape="circle" coords="510,378,6" title="CHE_PUN1:   $20.08" alt=""/>
+      <area shape="circle" coords="453,211,6" title="LHSES_UNIT1:   $20.09" alt=""/>
+      <area shape="circle" coords="457,199,6" title="OLIN_OLING_1:   $20.09" alt=""/>
+      <area shape="circle" coords="376,399,6" title="CALAVER_JTD1:   $19.86" alt=""/>
+      <area shape="circle" coords="254,205,6" title="BRAZ_WND_ALL:   $20.19" alt=""/>
+      <area shape="circle" coords="488,412,6" title="SCLP_PUN1:   $20.13" alt=""/>
+      <area shape="circle" coords="294,234,6" title="STWF_T1:   $20.16" alt=""/>
+      <area shape="circle" coords="374,333,6" title="FERGCC_GT1_1:   $19.94" alt=""/>
+      <area shape="circle" coords="224,156,6" title="AEEC:   $20.13" alt=""/>
+      <area shape="circle" coords="492,390,6" title="PNPI_GT2_RN:   $20.09" alt=""/>
+      <area shape="circle" coords="424,191,6" title="RN_DEC_GSU0:   $20.09" alt=""/>
+      <area shape="circle" coords="331,167,6" title="GPASTURE_ALL:   $20.12" alt=""/>
+      <area shape="circle" coords="244,141,6" title="SPLAIN1_RN:   $20.13" alt=""/>
+      <area shape="circle" coords="518,198,6" title="MNSES_UNIT1:   $20.09" alt=""/>
+      <area shape="circle" coords="436,217,6" title="MCSES_UNIT6:   $20.08" alt=""/>
+      <area shape="circle" coords="353,490,6" title="CEDROHI_CHW1:   $-13.31" alt=""/>
+      <area shape="circle" coords="317,199,6" title="SOLARA_UNIT1:   $20.13" alt=""/>
+      <area shape="circle" coords="248,254,6" title="MCDLD_FCSBW1:   $20.25" alt=""/>
+      <area shape="circle" coords="302,244,6" title="HHOLLW2_WND1:   $20.11" alt=""/>
+      <area shape="circle" coords="472,262,6" title="FREC_1_CCU:   $20.07" alt=""/>
+      <area shape="circle" coords="240,248,6" title="PC_NORTH_1:   $20.27" alt=""/>
+      <area shape="circle" coords="434,360,6" title="WIPOPA_1_2:   $19.83" alt=""/>
+      <area shape="circle" coords="407,522,6" title="PENA_ALL:   $0.01" alt=""/>
+      <area shape="circle" coords="493,391,6" title="BVE_UNIT1:   $20.08" alt=""/>
+      <area shape="circle" coords="365,397,6" title="LEONLCPCT1_2:   $20.01" alt=""/>
+      <area shape="circle" coords="375,236,6" title="BUCKTHRN_RN:   $20.09" alt=""/>
+      <area shape="circle" coords="433,427,6" title="VIC_VICTORG5:   $17.06" alt=""/>
+      <area shape="circle" coords="278,229,6" title="IND_INADALE1:   $20.17" alt=""/>
+      <area shape="circle" coords="185,310,6" title="RIGGIN_UNIT1:   $7.31" alt=""/>
+      <area shape="circle" coords="213,314,6" title="IN_INDNENR:   $19.91" alt=""/>
+      <area shape="circle" coords="273,229,6" title="LONEWOLF_ALL:   $20.19" alt=""/>
+      <area shape="circle" coords="298,240,6" title="BUFF_GAP_ALL:   $20.11" alt=""/>
+      <area shape="circle" coords="243,248,6" title="ELB_ELBCREEK:   $20.27" alt=""/>
+      <area shape="circle" coords="325,492,6" title="LARDVFTN_G4:   $19.66" alt=""/>
+      <area shape="circle" coords="500,382,6" title="FEGC_RN:   $20.08" alt=""/>
+      <area shape="circle" coords="415,479,6" title="CCEC_PUN1:   $17.51" alt=""/>
+      <area shape="circle" coords="276,61,6" title="MIAM1_G1_G2:   $20.13" alt=""/>
+      <area shape="circle" coords="209,84,6" title="SSPURT_WIND1:   $20.13" alt=""/>
+      <area shape="circle" coords="271,217,6" title="ENAS_ENA1:   $20.21" alt=""/>
+      <area shape="circle" coords="517,378,6" title="AZ_ALL:   $20.08" alt=""/>
+      <area shape="circle" coords="410,517,6" title="BAFFIN_ALL:   $0.01" alt=""/>
+      <area shape="circle" coords="260,163,6" title="WAKEWE_ALL:   $20.13" alt=""/>
+      <area shape="circle" coords="444,367,6" title="FPPYD_FPP_G1:   $19.96" alt=""/>
+      <area shape="circle" coords="502,378,6" title="TC_PUN1:   $20.08" alt=""/>
+      <area shape="circle" coords="391,384,6" title="RIONOG_CT1:   $19.91" alt=""/>
+      <area shape="circle" coords="407,351,6" title="SANDHSYD1_2:   $19.95" alt=""/>
+      <area shape="circle" coords="429,192,6" title="SPNC_SPNCE_4:   $20.09" alt=""/>
+      <area shape="circle" coords="369,432,6" title="SAN_SANMIGG1:   $19.62" alt=""/>
+      <area shape="circle" coords="420,490,6" title="B_DAVIS_3:   $17.53" alt=""/>
+      <area shape="circle" coords="363,550,6" title="LV3_UNIT1:   $18.51" alt=""/>
+      <area shape="circle" coords="435,433,6" title="DUP_PUN1:   $17.13" alt=""/>
+      <area shape="circle" coords="495,164,6" title="TNSKA_CCU:   $20.09" alt=""/>
+      <area shape="circle" coords="380,196,6" title="KEECHI_U1:   $20.09" alt=""/>
+      <area shape="circle" coords="266,261,6" title="GOA_GOATWIND:   $20.09" alt=""/>
+      <area shape="circle" coords="294,232,6" title="TRENT_TRENT:   $20.16" alt=""/>
+      <area shape="circle" coords="379,333,6" title="MARBFA:   $19.94" alt=""/>
+      <area shape="circle" coords="224,243,6" title="SWEC_G1:   $20.35" alt=""/>
+      <area shape="circle" coords="376,221,6" title="MIL_MILG1_2:   $20.09" alt=""/>
+      <area shape="circle" coords="265,97,6" title="SLTFRK_UN1_2:   $20.13" alt=""/>
+      <area shape="circle" coords="536,255,6" title="TGCCS_ALL:   $20.08" alt=""/>
+      <area shape="circle" coords="181,315,6" title="REROCK_ALL:   $-2.86" alt=""/>
+      <area shape="circle" coords="503,416,6" title="BSF_PUN1:   $20.11" alt=""/>
+      <area shape="circle" coords="415,164,6" title="WHTTAIL_WR1:   $20.09" alt=""/>
+      <area shape="circle" coords="237,268,6" title="NBOHR_RN:   $20.10" alt=""/>
+      <area shape="circle" coords="517,377,6" title="SRB_SRB_G1:   $20.08" alt=""/>
+      <area shape="circle" coords="351,512,6" title="EXGNSND_RN:   $18.71" alt=""/>
+      <area shape="circle" coords="289,231,6" title="SWEETWND_1:   $20.17" alt=""/>
+      <area shape="circle" coords="472,249,6" title="TRSES_UNIT6:   $20.08" alt=""/>
+      <area shape="circle" coords="392,197,6" title="JCKCNTY2_CT3:   $20.10" alt=""/>
+      <area shape="circle" coords="473,400,6" title="CBEC_ALL:   $20.23" alt=""/>
+      <area shape="circle" coords="522,396,6" title="TXCTY_CTA:   $20.08" alt=""/>
+      <area shape="circle" coords="175,278,6" title="PB2SES_CT1:   $24.75" alt=""/>
+      <area shape="circle" coords="367,549,6" title="LV4_UNIT_1:   $18.51" alt=""/>
+      <area shape="circle" coords="518,378,6" title="SJS_SJS_G1:   $20.08" alt=""/>
+      <area shape="circle" coords="282,240,6" title="SWTWN4_WND45:   $20.17" alt=""/>
+      <area shape="circle" coords="286,398,6" title="ECLIPSE_UN1:   $21.74" alt=""/>
+      <area shape="circle" coords="203,264,6" title="OECCS_1:   $20.36" alt=""/>
+      <area shape="circle" coords="481,402,6" title="TGF_TGFGT:   $20.22" alt=""/>
+      <area shape="circle" coords="206,296,6" title="KING_KINGNW:   $17.96" alt=""/>
+      <area shape="circle" coords="280,203,6" title="MOZART_WIND1:   $20.16" alt=""/>
+      <area shape="circle" coords="450,172,6" title="PANDA_S_CT1:   $20.09" alt=""/>
+      <area shape="circle" coords="243,241,6" title="CARBN_BSP_1:   $20.26" alt=""/>
+      <area shape="circle" coords="424,431,6" title="COL_COLETOG1:   $18.03" alt=""/>
+      <area shape="circle" coords="350,503,6" title="BORDAS_ALL:   $19.38" alt=""/>
+      <area shape="circle" coords="247,131,6" title="LHORN_N_U1_2:   $20.13" alt=""/>
+      <area shape="circle" coords="365,175,6" title="BCATWD_WD_1:   $20.11" alt=""/>
+      <area shape="circle" coords="494,169,6" title="LPCCS_CT11:   $20.09" alt=""/>
+      <area shape="circle" coords="406,549,6" title="BBREEZE_1_2:   $-0.09" alt=""/>
+      <area shape="circle" coords="330,169,6" title="VERTIGO_UN1:   $20.12" alt=""/>
+      <area shape="circle" coords="343,420,6" title="PEAR_PEARS_1:   $22.28" alt=""/>
+      <area shape="circle" coords="335,212,6" title="HWF_HWFG1:   $20.13" alt=""/>
+      <area shape="circle" coords="440,439,6" title="VISTRON_PUN1:   $17.37" alt=""/>
+      <area shape="circle" coords="453,434,6" title="FO_FORMOSA11:   $17.27" alt=""/>
+      <area shape="circle" coords="151,343,6" title="LASSO_GEN:   $-3.64" alt=""/>
+      <area shape="circle" coords="424,217,6" title="HLSES_UNIT3:   $20.09" alt=""/>
+      <area shape="circle" coords="374,199,6" title="BRTSW_BCW1:   $20.10" alt=""/>
+      <area shape="circle" coords="188,113,6" title="MARIAH_ALL:   $20.13" alt=""/>
+      <area shape="circle" coords="497,366,6" title="THW_1_CCU:   $20.08" alt=""/>
+      <area shape="circle" coords="447,239,6" title="ETCCS_CCU:   $20.08" alt=""/>
+      <area shape="circle" coords="455,215,6" title="FRNYPP_1_CCU:   $20.09" alt=""/>
+      <area shape="circle" coords="323,228,6" title="LNCRK_ALL:   $20.13" alt=""/>
+      <area shape="circle" coords="274,229,6" title="TKWSW_ROSCOE:   $20.17" alt=""/>
+      <area shape="circle" coords="473,400,6" title="CBECII_1:   $20.08" alt=""/>
+    </map>
+
+    <div class="portlet-wrap">
+    <div>&nbsp;</div>
+    <div class="portlet-light">
+
+    <table cellpadding="0" cellspacing="0" border="0"  width="710">
+      <tr id="contentDiv" style="display:block;">
+        <td class="hdr_port">LMP Contour Map: Real-Time Market - Settlement Point Pricing</td>
+        <td class="hdr_portB"><a href="javascript:open_window('/help/popup/lmpContourMapHelp')">Help?</a></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <table style="text-align: left; width: 710px;" border="0" cellpadding="2" cellspacing="2">
+            <tr>
+              <td class="dashboard"><div class="datestamp">Last Updated: Mar 22, 2018 17:17</div></td>
+              <td class="dashboard" align="right"><div class="datestamp">Download KML:&nbsp; 
+                <a href="rtmSpp.kml?uniquenessFactor=1521757021852">Contours and Points</a> 
+                &nbsp;/&nbsp; <a href="rtmSppPoints.kml?uniquenessFactor=1521757021852">Points Only</a>
+                &nbsp;/&nbsp; <a href="/content/cdr/static/texas_counties.kml">TX Counties</a>
+                &nbsp;/&nbsp; <a href="/content/cdr/static/ercot_boundary.kml">ERCOT Region</a></div></td>
+            </tr>
+          </table>
+        <td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <table style="text-align: left; width: 710px;" border="0" cellpadding="2" cellspacing="2">
+            <tr>
+              <td><img width="600" height="600" src="rtmSpp.png?uniquenessFactor=1521757021852" 
+                usemap="#CONTOUR_IMAGE_MAP" style="border:none;padding:0px;margin:0px;"></td>
+              <td><img width="100" height="530" src="rtmSppLegend.png?uniquenessFactor=1521757021852" 
+                style="border:none;padding:0px;margin:0px;"></td>
+            </tr>
+          </table>
+        <td>
+      <tr>
+    <form>
+      <tr>
+        <td colspan="2" class="dateLabelClassB" align="center">Select Data 
+          <select name="dataType" onChange="dataTypeUri(this.form);">
+            <option value="rtmLmp">RTM-LMP</option>
+            <option SELECTED value="rtmSpp">RTM-SPP</option>
+            <option value="damSpp1">DAM-SPP</option>
+          </select>
+          &nbsp;&nbsp;&nbsp;View As 
+          <select name="gradient" onChange="gradientUri(this.form);">
+            <option selected value="rtmSpp">Standard Gradient</option>
+            <option value="rtmSppHg">High Gradient</option>
+          </select>
+        <td>
+      <tr>
+    </form>
+      <tr>
+        <td colspan="2" style="text-align: center; vertical-align: middle;">&nbsp;</td>
+      </tr>
+    </table>
+
+      </div>
+      </div>
+
+  </body>
+</html>
